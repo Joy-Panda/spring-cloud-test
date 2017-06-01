@@ -9,22 +9,37 @@
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
+        <!--eureka注册中心-->
         <module>spring-cloud-eureka-server</module>
+        <!--服务提供者-->
         <module>spring-cloud-service-provider</module>
+        <!--服务消费者1-->
         <module>spring-cloud-service-consumer</module>
+        <!--服务提供者2-->
         <module>spring-cloud-service-provider2</module>
+        <!--服务消费者2-->
         <module>spring-cloud-service-consumer2</module>
+        <!--服务集群监控-->
         <module>spring-cloud-service-turbine</module>
+        <!--配置中心服务端-->
         <module>spring-cloud-config-server</module>
+        <!--配置中心客户端-->
         <module>spring-cloud-config-client</module>
+        <!--配置中心服务端2-->
         <module>spring-cloud-config-server2</module>
+        <!--消息总线-->
         <module>spring-cloud-config-bus</module>
+        <!--服务代理。路由-->
         <module>spring-cloud-service-zuul</module>
         <module>spring-cloud-service-order</module>
+        <!--配置信息加密的客户端-->
         <module>spring-cloud-config-client-secret</module>
+        <!--服务调用追踪-->
         <module>spring-cloud-service-zipkin</module>
+        <!--spring boot admin 相关-->
         <module>spring-boot-admin-server</module>
         <module>spring-boot-admin-client</module>
+        <!--spring boot admin 与注册中心结合相关-->
         <module>spring-boot-admin-eureka-server</module>
         <module>spring-boot-admin-eureka-client</module>
     </modules>
