@@ -15,3 +15,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123456@localhost:8000/eureka/
+info:
+  version: @project.version@
+
+management:
+  security:
+      enabled: false

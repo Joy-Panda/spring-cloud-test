@@ -32,8 +32,6 @@
         <!--服务代理。路由-->
         <module>spring-cloud-service-zuul</module>
         <module>spring-cloud-service-order</module>
-        <!--配置信息加密的客户端-->
-        <module>spring-cloud-config-client-secret</module>
         <!--服务调用追踪-->
         <module>spring-cloud-service-zipkin</module>
         <!--spring boot admin 相关-->
