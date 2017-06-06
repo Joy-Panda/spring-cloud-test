@@ -41,6 +41,8 @@
         <module>spring-boot-admin-eureka-server</module>
         <module>spring-boot-admin-eureka-client</module>
         <module>spring-boot-profile-test</module>
+        <module>spring-cloud-admin-dashbord</module>
+        <module>spring-microservices-dashbord</module>
     </modules>
 
     <parent>

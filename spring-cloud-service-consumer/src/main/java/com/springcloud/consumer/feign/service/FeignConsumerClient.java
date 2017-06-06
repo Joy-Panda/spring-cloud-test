@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author zhaopan
  * @Date 2017-05-24
  **/
-@FeignClient(value = "service", configuration = FeignConfiguration.class, fallback = FeignConsumerClientHystrix.class)
+@FeignClient(value = "service-provider", configuration = FeignConfiguration.class, fallback = FeignConsumerClientHystrix.class)
 public interface FeignConsumerClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/add")

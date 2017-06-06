@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
  * @Date 2017-05-24
  **/
 @RestController
-@RibbonClient(name = "service", configuration = RibbonConfiguration.class)
+@RibbonClient(name = "service-provider", configuration = RibbonConfiguration.class)
 public class RibbonController {
     @Autowired
     RestTemplate restTemplate;
