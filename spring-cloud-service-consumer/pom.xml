@@ -57,7 +57,7 @@
         <dependency>
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-ribbon</artifactId>
-            <version>9.4.0</version>
+            <version>10.7.0</version>
         </dependency>
 
         <!--服务追踪依赖-->
